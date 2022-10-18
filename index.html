@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/tailwind.css">
+    <title>e-shop</title>
+</head>
+<body>
+   <div class="container bg-pink-700 mx-auto p-5">
+    <div class="md:flex md:flex-row justify-between text-center">
+    <div class="flex flex-row justify-center">
+    <div class="bg-gradient-to-r from-purple-400 to-red-400 w-10 h-10"></div>
+    <h1 class="text-3xl text-gray-600 ml-2">Logo<h1>
+   <div class="mt-2">
+    <a href="#" class="text-gray-600 hover:text-purple-600 p-4">Home</a>
+    <a href="#" class="text-gray-600 hover:text-purple-600 p-4">Shop</a>
+    <a href="#" class="text-gray-600 hover:text-purple-600 p-4">Blog</a>
+    <a href="#" class="text-gray-600 hover:text-purple-600 p-4">Contact</a>
+    <a href="#" class="text-gray-600 hover:text-purple-700 p-3 px-5 rounded-full">Cart (0)
+        <svg class="h-6 w-6 inline-block"></svg>
+    </a>
+   </div>
+ </div>
+</div>
+
+ <!--main navigation-->
+
+ <!--hero section-->
+
+ <div class="md:flex md:flex-row mt-20">
+    <div class="md:w-2/5 flex flex-col justify-center">
+        <h2 class="font-serif text-5xl text-gray-600 mb-4 md:text-left">Some Catchy Title Here</h2>
+        <p class="uppercase text-gray-600 tracking-wide md:text-left">Our Brand tagline goes here</p>
+        <p class="uppercase text-gray-600 tracking-wide md:text-left">Our Brand motto goes here</p>
+        <a href="#" class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-4 px-8 text-gray-50 uppercase text-xl md:self-start my-5"></a>
+    </div>
+    <div class="md:w-3/5">
+        <img src="./image/hero-img.svg" class="w-full">
+    </div>
+ </div> <!--hero section-->
+
+<!--men section-->
+<div class="my-20">
+    <div class="flex flex-row justify-between my-5">
+        <h2 class="text-3xl">Men's Collection</h2>
+        <a href="#" class="text-xl">
+            <svg class="h-6 w-6"></svg>
+            View all
+        </a>
+    </div>
+    <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+        <div class="shadow-lg rounded-lg">
+            <a href="#">
+                <img src="./image/men/product1.jpg" class="rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+                <h3><a href="#">Men' T-Shirt</a></h3>
+                <div class="flex flex-row my-3">
+                    <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                    <div class="bg-blue-500 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                    <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                    <div class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                    <div class="bg-green-700 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                </div>
+                <div class="flex flex-row my-3">
+                    <div class="border-2 border-gray-300 text-gray-400 rounded-nd text-xs px-2 py-1 mr-2">XL</div>
+                    <div class="border-2 border-gray-300 text-gray-400 rounded-nd text-xs px-2 py-1 mr-2">XXL</div>
+                    <div class="border-2 border-gray-300 text-gray-400 rounded-nd text-xs px-2 py-1 mr-2">L</div>
+                    <div class="border-2 border-gray-300 text-gray-400 rounded-nd text-xs px-2 py-1 mr-2">M</div>
+                    <div class="border-2 border-gray-300 text-gray-400 rounded-nd text-xs px-2 py-1 mr-2">S</div>
+                </div>
+                <div class="fle flex-col xl:flex-row justify-between">
+                    <a href="#" class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex flex-row justify-center my-2 hover:from-pink-600 hover:tp-pink-600">
+                        <svg class="h-6 w-6"></svg>
+                        Add to Cart
+                    </a>
+
+                    <a href="#" class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex flex-row justify-center my-2 hover:bg-purple-700 text-sm">
+                        <svg class="h-5 w-5 mr-1"></svg>
+                        View Detail
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--men section-->
+
+
+<!--women section-->
+
+<!--women section-->
+
+<!--newletter section-->
+
+<div class="rounded-lg shadow-lg my-20 flex flex-row">
+<div class="lg:w-3/5 w-full bg-gradient-to-r lg:from-black lg:via-purple-900  lg:to-transparent rounded-lg">
+    <div class="w-1/2">
+        <h3 class="text-2xl font-extrabold mb-4">Subscribe to our offer first</h3>
+        <p class="mb-4 leading-relaxed">
+            want ot hear from us when we have new offer? Sign Up for our newsletter and we'll email you every time we have new sale offers
+        </p>
+        <div>
+            <input type="email" placeholder="Enter email address" class="bg-gray-600 text-gray-200 placeholder-gray-400 px-4 py-3 w-full rounded-lg focus:outline-none mb-4">
+            <button type="submit" class="bg-red-600 py-3 rounded-lg w-full">Subscribe</button>
+        </div>
+    </div>
+</div>
+<div class="lg:w-2/5 w-full lg:flex lg:flex-row hidden">
+    <img src="./image/subscribe-banner.png" class="h-96">
+</div>
+</div><!--newletter section-->
+
+<div class="border-t-2 border-gray-300 flex flex-col md:flex-row md:justify-between  text-center py-5 text-sm">
+    <div class="mb-4">
+        <a href="#" class="mx-2.5">About</a>
+        <a href="#" class="mx-2.5">Privacy Policy</a>
+        <a href="#" class="mx-2.5">Terms of Service</a>
+    </div>
+    <p>&copy; Copyright Reserverd 2022</p>
+</div><!--footer section-->
+
+</div>
+</body>
+</html>
